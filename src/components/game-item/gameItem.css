@@ -1,0 +1,38 @@
+.gameItem {
+    text-decoration: none;
+    color: cornsilk;
+    width: 320px;
+    height: 300px;
+    background-color: rgb(65, 61, 61);
+    border-radius: 15px;
+    position: relative;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.gameItem:not(:last-child) {
+    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+.gameItemTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+.gameItemGenre {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.gameItemDetail {
+    padding: 10px 20px;
+    
+}
+.gameItemDescrip {
+    margin-top: 10px;
+    font-size: 14px;
+    
+}
+.gameItemBuy {
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}

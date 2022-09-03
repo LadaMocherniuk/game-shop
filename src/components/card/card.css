@@ -1,0 +1,14 @@
+.card {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.cardTotal {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cardImg {
+    cursor: pointer;
+    position: relative;
+}
