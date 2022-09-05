@@ -1,0 +1,11 @@
+.choosenList {
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.choosenPrice {
+    display: flex;
+    align-items: center;
+}

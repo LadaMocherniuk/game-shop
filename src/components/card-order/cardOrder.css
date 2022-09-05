@@ -1,0 +1,23 @@
+.order {
+    position: absolute;
+    top: 30px;
+    left: -300px;
+    background-color: rgb(23, 23, 23);
+    width: 400px;
+    padding: 10px 20px;
+    z-index: 2;
+    border-radius: 15px;
+}
+.orderFinish {
+    margin-top: 20px;
+    padding: 20px 0;
+    border-radius: 1px solid rgb(69, 69, 69);
+}
+.totalPrice {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+

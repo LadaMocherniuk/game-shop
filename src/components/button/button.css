@@ -5,15 +5,16 @@
     padding: 5px;
     cursor: pointer;
 }
-.btn-secondary {
-    background-color:rgb(112, 109, 109);
+.btn--secondary {
+    background-color:rgb(131, 121, 121);
+
 }
-.btn-primary {
-    background-color: darkgrey;
+.btn--primary {
+    background-color: rgb(255, 255, 255);
 }
-.btn-small {
+.btn--small {
     font-size: 14px;
 }
-.btn-medium {
+.btn--medium {
     font-size: 18px;
 }
