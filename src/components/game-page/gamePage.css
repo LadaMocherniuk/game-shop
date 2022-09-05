@@ -1,0 +1,14 @@
+.pageContent {
+    display: flex;
+}
+.pageLeft {
+    width: 70%;
+}
+.pageRight {
+    width: 30%;
+}
+.buy {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}

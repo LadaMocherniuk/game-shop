@@ -6,9 +6,9 @@ const Header = () => {
     return(
         <div className="header">
            <div className="wrapper">
-               <href to="/" className="header_title">
+               <a href="/" className="header_title">
                    Game Store
-               </href>
+               </a>
                 </div>
            <div className="wrapper header_card">
                 <Card/>

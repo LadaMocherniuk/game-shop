@@ -6,7 +6,7 @@ const GAMES = [
     {
         image: '/pics/godofwar.jpg',
         title: 'God of War',
-        genres: ['Война', 'Симулятор', 'Открытый мир'],
+        genres: ['Action', 'Adventure'],
         price: 800,
         video: 'https://www.youtube.com/watch?v=EE-4GvjKcfs&ab_channel=PlayStation',
         id: 1,
@@ -15,7 +15,7 @@ const GAMES = [
     {
         image: '/pics/lego.jpg',
         title: 'LEGO® Brawls',
-        genres: ['Экшен', 'Шутер', 'Война'],
+        genres: ['Файтинг', 'Action'],
         video: 'https://www.youtube.com/watch?v=MuYe0URoSVc&ab_channel=Nintendo',
         price: 1200,
         id: 2,
@@ -24,7 +24,7 @@ const GAMES = [
     {
         image: '/pics/turt.jpg',
         title: 'Teenage Mutant Ninja Turtles: The Cowabunga Collection',
-        genres: ['Глубокий сюжет', 'Протагонистка'],
+        genres: ['Action', 'Adventure'],
         video: 'https://www.youtube.com/watch?v=0paGjvgg9kg&ab_channel=IGN',
         price: 1199,
         id: 3,
@@ -33,7 +33,7 @@ const GAMES = [
     {
         image: '/pics/pacmac.jpg',
         title: 'PAC-MAN WORLD Re-PAC',
-        genres: ['Открытый мир', 'Экшен'],
+        genres: ['Квест', 'Шутер'],
         video: 'https://www.youtube.com/watch?v=j_SgOs8vkFE&ab_channel=Nintendo',
         price: 1199,
         id: 4,
@@ -43,7 +43,7 @@ const GAMES = [
         image: '/pics/cultofthelamb.jpg',
         title: 'Cult of the Lamb',
         video: 'https://www.youtube.com/watch?v=xsPtUNB1z-Q&ab_channel=DevolverDigital',
-        genres: ['Тактика', 'Шутер'],
+        genres: ['Roguelike', 'Файтинг'],
         price: 890,
         id: 5,
         description: 'В Cult of the Lamb игрок окажется в роли одержимого ягненка, спасенного от гибели жутким незнакомцем. Чтобы отплатить долг спасителю, вам придется найти ему верных последователей. Заложите основы собственного культа в землях лжепророков и совершайте вылазки в разнообразные таинственные регионы, создайте преданное сообщество лесных почитателей и несите свое Слово, чтобы сделать это сообщество единственным истинным культом.'
@@ -51,7 +51,7 @@ const GAMES = [
     {
         image: '/pics/madeinabyss.jpg',
         title: 'Made in Abyss: Binary Star Falling into Darkness',
-        genres: ['Паркур', 'РПГ', 'Открытый мир'],
+        genres: ['Action', 'РПГ', 'Виживання'],
         video: 'https://www.youtube.com/watch?v=iwbtZo6P-Yw&ab_channel=NoisyPixel',
         price: 1800,
         id: 6,

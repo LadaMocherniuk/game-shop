@@ -1,16 +1,19 @@
 .btn {
-    border-radius: 15px;
-    color: darkgray;
+    border-radius: 18px;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 5px;
     cursor: pointer;
 }
 .btn--secondary {
-    background-color:rgb(131, 121, 121);
+    background-color:rgb(85, 82, 82);
 
 }
 .btn--primary {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(151, 180, 113);
+}
+.btn--primary:hover {
+    background-color: rgb(159, 197, 109);
 }
 .btn--small {
     font-size: 14px;

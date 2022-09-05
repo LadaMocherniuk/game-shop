@@ -1,0 +1,21 @@
+.orderItem {
+    display: flex;
+    margin-bottom: 30px;
+}
+.orderPic {
+    width: 150px;
+    margin-right: 30px;
+}
+.orderTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+.orderPrice {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+}
+.orderDelete {
+    margin-left: 5px;
+    cursor: pointer;
+}
