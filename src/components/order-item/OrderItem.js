@@ -21,7 +21,7 @@ const OrderItem = ({ game }) => {
             <div className="orderPrice">
                 <span>{game.price}</span>
                 <AiFillDelete
-                size={25}
+                size={18}
                 className="orderDelete"
                 onClick={ handleClick }/>
             </div>

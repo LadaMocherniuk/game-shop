@@ -1,0 +1,17 @@
+.pageOrder {
+    justify-content: space-between;
+    position: relative;
+}
+.pageLeft {
+    width: 70%;
+}
+.pageRight {
+    width: 25%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.pageTotalPrice {
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: darkslategray;
+}

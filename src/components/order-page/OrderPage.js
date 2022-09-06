@@ -4,8 +4,8 @@ import OrderItem from '../order-item/OrderItem';
 import './orderPage.css';
 
 const OrderPage = () => {
-    const items = useSelector(state => state.card.itemsInCard);
-    const totalPrice = items.reduce((acc, item) => acc += item.price, 0 );
+    const items = useSelector((state) => state.card.itemsInCard);
+    const totalPrice = () => items.reduce((acc, item) => acc += item.price, 0 );
 
     if(items.length < 1){
         <h1>Порожня корзина</h1>
@@ -17,7 +17,7 @@ const OrderPage = () => {
            </div>
            <div className="pageRight">
                <div className="pageTotalPrice">
-                   <span>{items.length} на суму {totalPrice(items)}</span>
+                   <span>{items.length} гри замовлено на суму {totalPrice(items)} грн</span>
 
                </div>
 
