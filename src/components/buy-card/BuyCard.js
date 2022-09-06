@@ -1,8 +1,8 @@
 import React from 'react';
-import Button from '../button/Button';
-import './buyCard.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { deleteItemFromCard, setIteminCard } from '../redux/card/reducer';
+import Button from '../button/Button';
+import './buyCard.css';
 
 const BuyCard = ({ game }) => {
     const dispatch = useDispatch();
@@ -15,7 +15,6 @@ const BuyCard = ({ game }) => {
         }else {
             dispatch(setIteminCard(game));
         }
-        
     }
     return (
         <div className="cardBuy">
@@ -24,9 +23,7 @@ const BuyCard = ({ game }) => {
                 onClick={handleClick}>
                 {isItemInCard ? "Видалити з корзини" : "Додати до корзини"}
             </Button>
-            
         </div>
     )
-
 }
 export default BuyCard;

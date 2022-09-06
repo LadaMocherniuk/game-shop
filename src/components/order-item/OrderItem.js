@@ -10,10 +10,10 @@ const OrderItem = ({ game }) => {
     const handleClick = () => {
         dispatch(deleteItemFromCard(game.id));
     }
-    return(
+    return (
         <div className="orderItem">
             <div className="orderPic">
-                <GamePic image={game.image}/>
+                <GamePic image={game.image} />
             </div>
             <div className="orderTitle">
                 <span>{game.title}</span>
@@ -21,9 +21,9 @@ const OrderItem = ({ game }) => {
             <div className="orderPrice">
                 <span>{game.price}</span>
                 <AiFillDelete
-                size={18}
-                className="orderDelete"
-                onClick={ handleClick }/>
+                    size={18}
+                    className="orderDelete"
+                    onClick={handleClick} />
             </div>
 
         </div>

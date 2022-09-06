@@ -23,7 +23,7 @@ const GAMES = [
     },
     {
         image: '/pics/turt.jpg',
-        title: 'Teenage Mutant Ninja Turtles: The Cowabunga Collection',
+        title: 'Teenage Mutant Ninja Turtles',
         genres: ['Action', 'Adventure'],
         video: 'https://www.youtube.com/embed/0paGjvgg9kg',
         price: 1199,
@@ -32,7 +32,7 @@ const GAMES = [
     },
     {
         image: '/pics/pacmac.jpg',
-        title: 'PAC-MAN WORLD Re-PAC',
+        title: 'PAC-MAN WORLD',
         genres: ['Квест', 'Шутер'],
         video: 'https://www.youtube.com/embed/j_SgOs8vkFE',
         price: 1199,
@@ -50,7 +50,7 @@ const GAMES = [
     },
     {
         image: '/pics/madeinabyss.jpg',
-        title: 'Made in Abyss: Binary Star Falling into Darkness',
+        title: 'Made in Abyss',
         genres: ['Action', 'РПГ', 'Виживання'],
         video: 'https://www.youtube.com/embed/iwbtZo6P-Yw',
         price: 1800,

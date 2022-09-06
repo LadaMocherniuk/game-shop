@@ -13,7 +13,6 @@ const GameItem = ({ game }) => {
     const handleClick = () => {
         dispatch(setCurrentGame(game));
         navigate(`/app/${game.title}`);
-
     }
     return(
         <div className="gameItem" onClick={ handleClick }>

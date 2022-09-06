@@ -19,9 +19,7 @@ const GamePage = () => {
                     src={game.video}
                     title="Youtube Video Player"
                     frameBorder="0">
-
                     </iframe>
-
                 </div>
                 <div className="pageRight">
                     <GamePic image={game.image}/>
@@ -31,10 +29,8 @@ const GamePage = () => {
                     <div className="buy">
                         <BuyCard game={ game }/>
                     </div>
-
                 </div>
              </div>
-        
         </div>
     )
 }

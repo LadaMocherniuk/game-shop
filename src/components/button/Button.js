@@ -2,7 +2,6 @@ import React from 'react';
 import classNames from 'classnames';
 import './button.css';
 
-
 const Button = ({ onClick, type, children, size }) => {
         const btnClass = classNames({
             'btn': true,
